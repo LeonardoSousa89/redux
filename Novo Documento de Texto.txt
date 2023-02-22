@@ -1,0 +1,10 @@
+DOC:
+https://react-redux.js.org/
+https://react-redux.js.org/introduction/getting-started
+https://react-redux.js.org/tutorials/connect
+https://react-redux.js.org/using-react-redux/connect-mapstate
+https://react-redux.js.org/using-react-redux/connect-mapdispatch
+
+
+AULAS 200 - 208 ~aproximadamente:
+React Native: Desenvolva APPs Nativas para Android e iOS - LEONARDO LEITÃO
