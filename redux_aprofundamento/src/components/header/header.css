@@ -1,6 +1,32 @@
 .app-header{
-    background-color: aqua;
+    background-color: whitesmoke;
     grid-area: component-header; 
     height: 100%;
     width: 100%;
-  }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-header div{
+
+  padding: 5px;
+
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header div>span{
+  width: 50%;
+}
+
+.app-header-title{
+  text-align: center;
+}
+
+.app-header-carrinho{
+  display: flex;
+  justify-content: end;
+}
