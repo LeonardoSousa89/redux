@@ -1,0 +1,6 @@
+.app-main{
+    background-color: brown;
+    grid-area: component-main; 
+    height: 100%;
+    width: 100%;
+  }

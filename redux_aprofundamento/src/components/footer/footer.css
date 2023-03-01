@@ -1,0 +1,6 @@
+.app-footer{
+    background-color: goldenrod;
+    grid-area: component-footer;
+    height: 100%;
+    width: 100%;
+  }

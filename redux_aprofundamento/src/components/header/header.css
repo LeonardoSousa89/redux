@@ -1,0 +1,6 @@
+.app-header{
+    background-color: aqua;
+    grid-area: component-header; 
+    height: 100%;
+    width: 100%;
+  }
