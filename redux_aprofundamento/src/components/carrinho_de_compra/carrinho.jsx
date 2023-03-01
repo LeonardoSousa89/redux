@@ -15,7 +15,7 @@ export default class Carrinho extends Component{
     bemVindo(){
         console.log('seja bem vindo')
     }
-        
+
     addClique(){
         console.log(this.state.contador+=1)
         this.verificarCarrinho()
@@ -23,6 +23,11 @@ export default class Carrinho extends Component{
 
     verificarCarrinho(){
         if(this.state.contador > 0) alert('item adicionado ao carrinho')
+        if(this.state.contador > 10){
+
+            this.state={ contador: 10 }
+            alert('desculpe, estoque do produto finalizado não podemos adicionar ao carrinho')
+        }
     }
 
     componentDidMount(){
