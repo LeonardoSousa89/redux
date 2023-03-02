@@ -18,3 +18,8 @@ https://www.thewindowsclub.com/reset-windows-terminal-settings-to-default
 
 POWERSHELL:
 https://learn.microsoft.com/pt-br/powershell/scripting/samples/working-with-files-and-folders?view=powershell-7.3
+
+
+SPA e SEO:
+https://lume.cc/blog/seo/desafios-de-spa-e-seo/
+https://www.devmedia.com.br/forum/spa-e-seo/588934

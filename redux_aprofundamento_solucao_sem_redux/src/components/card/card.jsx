@@ -24,6 +24,10 @@ export default class Card extends Component{
                     <strong>{this.props.preco}</strong>
                 </div>
 
+                <div className="acao">
+                    <button onClick={this.props.addAoCart}>adicionar ao carrinho</button>
+                </div>
+
             </main>
         )
     }
