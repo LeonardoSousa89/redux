@@ -4,18 +4,18 @@ import './card.css'
 
 export default class Card extends Component{
 
-    state={
-        imageURI: '',
-        desc: '',
-        preco: 0
-    }
-
     render(){
         return(
             <main className="app-card">
 
-                <img src={this.props.src} alt={this.props.alt} />
-                
+                <div className="img">
+                    <img src={this.props.src} alt={this.props.alt} />
+                </div>
+
+                <div className="nome_produto">
+                    <p>{this.props.nome_produto}</p>
+                </div>
+
                 <div className="desc">
                     <p>{this.props.desc}</p>
                 </div>

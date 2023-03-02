@@ -1,0 +1,45 @@
+.app-card{
+  
+  height: 300px;
+  width: 250px;
+
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.6);
+
+  margin: 10px 25px;
+
+  cursor: pointer;
+
+  transition: all;
+  transition-duration: 0.1s;
+}
+
+.app-card:hover{
+    height: 310px;
+    width: 260px;
+}
+
+.app-card > img{
+    height: 50%;
+    width: 100%;
+}
+
+.desc{
+    height: 30%;
+    width: 100%;
+
+    padding: 3px;
+    display: flex;
+}
+
+.desc > p{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+.preco{
+    height: 20%;
+    width: 100%;
+
+    text-align: center;
+}
