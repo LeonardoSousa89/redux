@@ -101,4 +101,5 @@
 }
 .acao > button:hover{
     color: goldenrod;
+    background: linear-gradient(63deg, rgba(0, 0, 0, 0.6) 45%, rgba(0, 0, 0, 0.7) 55%);
 }
