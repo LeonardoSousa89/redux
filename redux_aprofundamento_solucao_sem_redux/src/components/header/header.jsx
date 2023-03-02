@@ -27,7 +27,7 @@ export default class Header extends Component{
               <div>
 
                 <span className="app-header-title">
-                    <h2>Redux Carrinho</h2>
+                    <h2>Techno Compra Total</h2>
                 </span>
 
                 <span className="app-header-carrinho"

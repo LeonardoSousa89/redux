@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
 .app-header{
     grid-area: component-header; 
     height: 100%;
@@ -6,6 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-family: 'Gajraj One', cursive;
 }
 
 .app-header div{
@@ -23,9 +27,24 @@
 
 .app-header-title{
   text-align: center;
+  font-size: xx-large;
+
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .app-header-carrinho{
   display: flex;
   justify-content: end;
+}
+
+@media (max-width:1024px) {
+  .app-header-title{
+    font-size: x-large;
+  }
+}
+
+@media (max-width:667px) {
+  .app-header-title{
+    font-size: large;
+  }
 }

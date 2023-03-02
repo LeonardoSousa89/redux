@@ -22,6 +22,11 @@ body{
     'component-footer component-footer';
 }
 
+@media (max-width:667px) {
+  .App{
+    grid-template-rows: 30vh 65vh 5vh;
+  }
+}
 
 
 
