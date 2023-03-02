@@ -39,7 +39,10 @@
     background-color: rgba(0, 0, 0, 0.2);
 
     font-weight: bold;
-    text-align: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .desc{
@@ -59,19 +62,19 @@
 }
 
 .preco{
-    height: 5%;
+    height: 7%;
     width: 100%;
 
-    text-align: center;
-
-    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .preco > strong{
     color: rgba(0, 0, 0, 0.8);
 }
 
 .acao{
-    height: 20%;
+    height: 18%;
     width: 100%;
 
     display: flex;
