@@ -1,6 +1,18 @@
 .app-footer{
-    background-color: goldenrod;
+    background-color: rgba(218, 165, 32, 0.8);
     grid-area: component-footer;
     height: 100%;
     width: 100%;
-  }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+}
+
+@media (max-width: 667px) {
+    .app-footer{
+      font-size: xx-small;
+    }
+}
